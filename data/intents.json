@@ -1,0 +1,361 @@
+<<<<<<< HEAD
+{"intents": [
+
+  { "tag":"buildings1",
+  "patterns": ["Computer Center"],
+  "responses": ["BAU's main computing center, the Computer center is concerned in computerizing the university computer-based electronic needs and serves the university population, being teaching staff, administration members or students. The center is located in the university's premises in Salt, and is in charge of all other sub-centers of the university colleges and faculties."]
+  },
+  { "tag":"buildings2",
+  "patterns": ["Admission & Registeration Unit","Admission and Registeration","Registeration","Admission"],
+  "responses": ["Admission and Registration Unit has long been playing an active role in the educational process in the university, trying to the best of its ability to overcome all obstacles that face its students. Driven by its strong belief in maintaining connection with the students, our page is put into their service to facilitate communication with them."]
+  },
+  { "tag":"buildings3",
+  "patterns": ["Prince Abdullah bin Ghazi Faculty of IT", "it faculty"],
+  "responses": ["Formerly known as the Faculty of Applied Sciences, our school is one of Jordan’s pioneering faculties. In its former capacity, it was among the first schools to award a BSc in Information Technology in the kingdom Today, and after a few changes in 2004 and 2011, the school is solely dedicated to Information and Communication Technology, and offers a wide range of sought-after world-class programs including Computer Science, Computer Graphics and Animation, Computer Information Systems and Software Engineering."]
+  },
+  { "tag":"buildings3",
+  "patterns": ["Science College"],
+  "responses": ["The College of Science was established in conjunction with the establishment of Al-Balqa Applied University (BAU) in 1997 under the name of the College of Applied Sciences. The college was amongst the first colleges in the Hashemite Kingdom of Jordan that offer the major of information technology. The college’s name was changed in 2004 to become Prince Abdullah Bin Ghazi College of Science and Information Technology. In 2011, the college was split into the College of Science and Prince Abdullah Bin Ghazi College of Information Technology. The College of Science sets its objectives in accordance with the overall objectives of Al-Balqa Applied University (BAU) to keep up with the scientific and technological development to serve the Jordanian society. Moreover, the college is looking forward to achieve distinction locally and globally in the field of applied sciences by providing a variety of outstanding academic programs that can grant both local and international quality and accreditation standards, as well as to meet the needs of labor markets, for now and the future."]
+  },
+  { "tag":"buildings4",
+  "patterns": ["Faculty of Medicine"],
+  "responses": ["The Faculty of Medicine at Al-Balqa Applied University established since 2015 and is located in Al-Salt 'ancient' City as part of the university's main center and adjacent to Al-Hussein 'Al-Salt New' Hospital. The College awards a Bachelor of Medicine Doctor of Medicine degree through regular study over six years. The Faculty of Medicine has eight departments, including the Department of Basic Medical Sciences, Public Health and Community Medicine, Pathology and Forensic Medicine, General Surgery, Special Surgery, Internal Medicine, Pediatrics, and Obstetrics and Gynecology. We employ a distinguished staff with a high level of experience and competency. Scholars are sent to prestigious universities through continuous development plans to acquire up-to-date knowledge in science, research, and clinical training in various disciplines."]
+  },
+  { "tag":"buildings5",
+  "patterns": ["Faculty of Engineering Technology"],
+  "responses": ["Faculty of Engineering Technology (FET) is one of the leading applied institutes of Al Balqa' Applied university (BAU). BAU has 16 college campuses that distributed over all the country, serving Jordanians and developing their professions and careers. FET is specialized in applied learning and technology. Our mission is concentrating on providing skilled technicians and professional engineers with high knowledge in applied sciences and technology."]
+  },
+  { "tag":"buildings6",
+  "patterns": ["Language Center"],
+  "responses": ["Welcome to the Language Center (LC) at Al-Balqa Applied University (BAU)! As a hub of linguistic exploration and academic excellence, our center is dedicated to fostering language proficiency, cultural understanding, and communication skills that empower our students for success in a diverse global landscape. The LC is committed to providing a dynamic learning environment where students can engage with a variety of languages, cultures, and ideas. Whether you are learning a new language, seeking to enhance your communication skills, or exploring cross-cultural perspectives, our dedicated team of educators and staff are here to support and guide you every step of the way. Through innovative teaching methodologies, immersive language experiences, and opportunities for cultural exchange, we aim to inspire a passion for language learning and promote intercultural understanding among our students and the broader community."]
+  },
+
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi"],
+  "responses": ["Hello!","Hey!"]
+  },
+
+  {"tag": "greetings2",
+  "patterns": ["what's up?","how is it going?","how are you"],
+  "responses": ["Iam Good Thanks"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","your name"],
+  "responses": ["You can call me BAU BOT","I'm BAU BOT"]
+  },
+
+  {"tag": "courses",
+  "patterns": ["what courses are available", "available courses" ,"courses"],
+  "responses": [{"link": "documents/showReport.pdf"}]
+  },
+
+   {"tag": "data",
+  "patterns": ["When was the university founded?", "university founded"],
+  "responses": ["The Royal Decree establishing Al-Balqa Applied University was issued on August 22, 1996, and actual teaching began in the academic year 1997/1998."]
+  },
+
+   {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the college","university located","Where is the university located?"],
+  "responses": [{"link": "https://www.google.com/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D8%A8%D9%84%D9%82%D8%A7%D8%A1+%D8%A7%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D9%8A%D8%A9+%D8%A7%D9%84%D8%B3%D9%84%D8%B7%E2%80%AD/@32.0249634,35.7193685,17z/data=!3m1!4b1!4m6!3m5!1s0x151cbd1654d5c8e5:0x61f22c89710c16af!8m2!3d32.0249589!4d35.7167936!16s%2Fm%2F09gpy97?entry=ttu"}]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","semesters","how many semesters"],
+  "responses": ["There are two semesters in a year."]
+  },
+
+  {"tag": "semDuration",
+  "patterns": ["how many months are there in a semester","how long will be a single semester","how long semester"],
+  "responses": ["The single semester will be around 4 months."]
+  },
+
+  {"tag": "studentRequirements",
+  "patterns": ["what are the student requirements for admission","entry requirements","admission requirements"],
+  "responses": ["The admission requirements include a high school diploma with a minimum grade of 65%. Additionally, students must take the proficiency exam prescribed for first-year students, which consists of three tests: Arabic (99), English (99), and Computer Skills (99)."]
+  },
+  
+  {"tag": "Student Proof",
+  "patterns": ["Student Proof","student proof document","proof document","proof"],
+  "responses": ["To obtain a student proof document:\n1-Go to the university's website portal.\n2-Click on the Student Services option.\n3-Click on the Online Registration option.\n4-Click on the Online Registration System option, then enter your university ID and password.\n5-Click on the Registration Servicesoption and select Student Proof."]
+  },
+
+  {"tag": "specializations ",
+  "patterns": ["specializations","specializations college"],
+  "responses": ["1.Software Engineering(SE)\n2. Computer Science(CS)\n3.Computer Graphics and Animation(CGA)\n4.Computer Information Systems(CIS)"]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures "],
+  "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet, library, classes with AC, discusson room, canteen, parking space, and student service for any students queries."]
+  },
+
+  {"tag": "fee",
+  "patterns": ["how much is the college fee","what is the fee structure","fee","college fee"],
+  "responses": [{"link":"documents/fee.pdf"}]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me","ok thanks","OK"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure","Okay"]
+  },
+
+  {"tag": "invalid",
+   "patterns": ["","gvsd","asbhk"],
+   "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  }
+]}
+=======
+{
+  "intents": [
+    {
+      "tag": "programming",
+      "patterns": [
+        "What is programming",
+        "Tell me about programming",
+        "What languages are used in programming",
+        "Explain programming concepts",
+        "What is coding",
+        "What is software development",
+        "What is the role of a programmer",
+        "What is the difference between programming and coding",
+        "What is the purpose of coding",
+        "What skills do you need for programming",
+        "What are the most popular programming languages",
+        "What is the importance of algorithms in programming",
+        "Programming", "Coding", "Software development", "Code"
+      ],
+      "responses": [
+        "Programming is the process of creating software, websites, and applications by writing instructions in a programming language. It involves problem-solving and algorithm design. Some of the most popular programming languages are Python, JavaScript, Java, C++, and Ruby. There are various types of programming such as web development, mobile development, game development, and system programming."
+      ]
+    },
+    {
+      "tag": "web_development",
+      "patterns": [
+        "What is web development",
+        "Tell me about web development",
+        "What does a web developer do",
+        "What are the skills required for web development",
+        "How do I become a web developer",
+        "What languages are used in web development",
+        "What is front-end development",
+        "What is back-end development",
+        "What is full-stack development",
+        "What tools are used in web development",
+        "What is responsive design in web development",
+        "Web development", "Front-end", "Back-end", "Full-stack", "HTML", "CSS", "JavaScript"
+      ],
+      "responses": [
+        "Web development is the process of building websites and web applications. It involves both front-end (the part of the website the user interacts with) and back-end (the server-side logic). Technologies like HTML, CSS, and JavaScript are used for front-end development, while back-end technologies include Python, Node.js, PHP, and databases like MySQL and MongoDB. Responsive design ensures that web pages look good on devices of all sizes."
+      ]
+    },
+    {
+      "tag": "mobile_development",
+      "patterns": [
+        "What is mobile development",
+        "Tell me about mobile development",
+        "What are the tools for mobile app development",
+        "What languages are used in mobile app development",
+        "What is the difference between Android and iOS development",
+        "What is cross-platform mobile development",
+        "What is React Native",
+        "What is Flutter",
+        "How do I develop mobile apps for Android",
+        "How do I develop mobile apps for iOS",
+        "Mobile development", "Android development", "iOS development", "React Native", "Flutter"
+      ],
+      "responses": [
+        "Mobile development refers to the creation of applications for mobile devices such as smartphones and tablets. The two primary platforms are iOS (using Swift or Objective-C) and Android (using Java or Kotlin). Cross-platform tools like React Native, Flutter, and Xamarin allow developers to write code that works on both platforms."
+      ]
+    },
+    {
+      "tag": "cloud_computing",
+      "patterns": [
+        "What is cloud computing",
+        "Tell me about cloud computing",
+        "How does cloud computing work",
+        "What are the types of cloud services",
+        "What is cloud technology",
+        "What is IaaS",
+        "What is PaaS",
+        "What is SaaS",
+        "What are the benefits of cloud computing",
+        "What are some examples of cloud service providers",
+        "What is the difference between public and private cloud",
+        "Cloud computing", "Cloud", "Computing", "Cloud services", "IaaS", "PaaS", "SaaS"
+      ],
+      "responses": [
+        "Cloud computing allows users to access computing resources like servers, storage, and applications over the internet, rather than using local servers. It offers flexibility, scalability, and cost-effectiveness. The three main types of cloud services are IaaS (Infrastructure as a Service), PaaS (Platform as a Service), and SaaS (Software as a Service). Popular cloud providers include Amazon Web Services (AWS), Microsoft Azure, and Google Cloud."
+      ]
+    },
+    {
+      "tag": "cloud_storage",
+      "patterns": [
+        "What is cloud storage",
+        "Tell me about cloud storage",
+        "How does cloud storage work",
+        "What are the advantages of cloud storage",
+        "What is cloud data backup",
+        "How secure is cloud storage",
+        "What are some examples of cloud storage services",
+        "What is the difference between cloud storage and local storage",
+        "Can I access cloud storage offline",
+        "Cloud storage", "Cloud backup", "Cloud files"
+      ],
+      "responses": [
+        "Cloud storage refers to saving data on remote servers that are managed by cloud service providers. This allows users to store, access, and share files from anywhere with an internet connection. Examples of cloud storage services include Google Drive, Dropbox, and OneDrive. It provides benefits like scalability, remote access, and data redundancy."
+      ]
+    },
+    {
+      "tag": "cloud_security",
+      "patterns": [
+        "What is cloud security",
+        "Tell me about cloud security",
+        "How do you secure cloud data",
+        "What are the main cloud security challenges",
+        "What is data encryption in cloud security",
+        "What is identity management in the cloud",
+        "What is the importance of cloud security frameworks",
+        "What are the best practices for securing cloud services",
+        "How do I prevent data breaches in the cloud",
+        "Cloud security", "Cloud encryption", "Cloud data security", "Cloud access control"
+      ],
+      "responses": [
+        "Cloud security refers to the policies, technologies, and controls that protect data, applications, and services hosted in the cloud. It includes encryption, access controls, identity management, and threat detection systems. Major cloud providers like AWS, Google Cloud, and Azure have dedicated cloud security frameworks to ensure data protection."
+      ]
+    },
+    {
+      "tag": "artificial_intelligence",
+      "patterns": [
+        "What is artificial intelligence",
+        "Tell me about artificial intelligence",
+        "How does AI work",
+        "What are the types of AI",
+        "What is machine learning",
+        "What is natural language processing",
+        "What is computer vision",
+        "What are the applications of AI",
+        "What is the future of artificial intelligence",
+        "Artificial intelligence", "AI", "Machine learning", "NLP", "Computer vision"
+      ],
+      "responses": [
+        "Artificial Intelligence (AI) is a field of computer science focused on creating machines capable of performing tasks that typically require human intelligence, like understanding language, recognizing patterns, and making decisions. AI includes subfields such as machine learning (ML), natural language processing (NLP), and computer vision. It's used in healthcare, finance, autonomous driving, and more."
+      ]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "What is machine learning",
+        "Tell me about machine learning",
+        "How does machine learning work",
+        "What are the types of machine learning",
+        "What is supervised learning",
+        "What is unsupervised learning",
+        "What is reinforcement learning",
+        "What is the difference between machine learning and AI",
+        "What are the applications of machine learning",
+        "Machine learning", "ML", "Supervised learning", "Unsupervised learning", "Reinforcement learning"
+      ],
+      "responses": [
+        "Machine learning (ML) is a subset of AI that enables computers to learn from data and make predictions or decisions. The main types of machine learning are supervised learning, unsupervised learning, and reinforcement learning. ML is used in areas like spam detection, recommendation systems, and predictive analytics."
+      ]
+    },
+    {
+      "tag": "data_science",
+      "patterns": [
+        "What is data science",
+        "Tell me about data science",
+        "What does a data scientist do",
+        "What skills are required for data science",
+        "What tools do data scientists use",
+        "What is the difference between data science and data analysis",
+        "How do I become a data scientist",
+        "What is data visualization",
+        "What is big data in data science",
+        "Data science", "Big data", "Data analysis", "Data visualization", "Data scientist"
+      ],
+      "responses": [
+        "Data science involves extracting meaningful insights from structured and unstructured data. It combines statistics, machine learning, and data analysis techniques. Data scientists use tools like Python, R, SQL, and data visualization software to analyze data and make data-driven decisions."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Cya",
+        "See you later",
+        "Goodbye",
+        "I am leaving",
+        "Have a good day",
+        "Bye",
+        "See ya",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye, have a great day!"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "How are you",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "What's up"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi! How can I help you?",
+        "Hey there! What can I do for you?",
+        "Good day! How may I assist you?",
+        "Hello, how are you today?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me",
+        "Ok thanks",
+        "Okay"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "You're welcome!",
+        "No problem"
+      ]
+    },
+    {
+      "tag": "invalid",
+      "patterns": [
+        "",
+        "gvsd",
+        "asbhk",
+        "xyz",
+        "?!@#$",
+        "hello123"
+      ],
+      "responses": [
+        "Sorry, I can't understand you",
+        "Please provide more details",
+        "Not sure I understand",
+        "Could you clarify that?"
+      ]
+    }
+  ]
+}
+>>>>>>> 4dae033 (New Changes)
