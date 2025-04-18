@@ -95,7 +95,7 @@ function showOutput(text, messageType, loadingIndicator) {
 
     if (messageType === "bot") {
         const avatar = document.createElement("img");
-        avatar.src = "imges/bot.png";
+        avatar.src = "bot.png";
         avatar.classList.add("avatar");
         avatar.alt = "Bot Avatar";
         messageElement.appendChild(avatar);
@@ -119,7 +119,7 @@ function showLoadingIndicator() {
     loadingElement.id = "loadingIndicator";
 
     const avatar = document.createElement("img");
-    avatar.src = "imges/bot.png";
+    avatar.src = "bot.png";
     avatar.classList.add("avatar");
     avatar.alt = "Bot Avatar";
     loadingElement.appendChild(avatar);
